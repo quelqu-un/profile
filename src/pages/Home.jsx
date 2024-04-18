@@ -11,12 +11,40 @@ import { soundoff, soundon } from "../assets/icons";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
-  audioRef.current.volume = 0.4;
-  audioRef.current.loop = true;
-
+  const timeoutRef = useRef(null);
+  const [isTextVisible, setIsTextVisible] = useState(true);
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop = true;
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        setIsTextVisible(false); // Hide text
+        clearTimeout(timeoutRef.current);
+      }
+    };
+
+    const handleKeyUp = (event) => {
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        timeoutRef.current = setTimeout(() => {
+          setIsTextVisible(true); // Show text after 3 seconds
+        }, 2000);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    window.addEventListener("keyup", handleKeyUp);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      window.removeEventListener("keyup", handleKeyUp);
+      clearTimeout(timeoutRef.current);
+    };
+  }, []);
 
   useEffect(() => {
     if (isPlayingMusic) {
@@ -63,7 +91,7 @@ const Home = () => {
   return (
     <section className='w-full h-screen relative'>
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        {currentStage && <HomeInfo currentStage={currentStage} />}
+         {isTextVisible && <HomeInfo />}
       </div>
 
       <Canvas
