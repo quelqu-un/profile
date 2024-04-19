@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'custom': '2px',  // Custom name and size
+      },
       colors: {
         gray: {
           200: "#D5DAE1"
@@ -28,4 +32,4 @@ export default {
     },
   },
   plugins: [],
-}
+};

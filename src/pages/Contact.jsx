@@ -82,7 +82,7 @@ const Contact = () => {
   };
 
   return (
-    <section className='relative flex lg:flex-row flex-col max-container'>
+    <section className='relative lg:-mt-7 flex lg:flex-row flex-col max-container 'style={{ marginBottom: 2, paddingBottom: 2 }}>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
@@ -91,7 +91,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='w-full flex flex-col gap-7 mt-14'
+          className='w-full flex flex-col gap-7 mt-5'
         >
           <label className='text-black-500 font-semibold'>
             Name
@@ -147,7 +147,7 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
+      <div className='lg:w-1/2 w-full  lg:h-auto  md:h-[550px] h-[350px]'>
         <Canvas
           camera={{
             position: [0, 0, 5],

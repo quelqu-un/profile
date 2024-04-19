@@ -1,6 +1,6 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import sakura from "../assets/sakura.mp3";
-import {Canvas} from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import Island from '../models/AppIsland'
 import Sky from '../models/Sky'
@@ -8,6 +8,10 @@ import Mew from '../models/Mew'
 import Plane from '../models/Plane'
 import HomeInfo from '../components/HomeInfo'
 import { soundoff, soundon } from "../assets/icons";
+
+
+
+
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -91,13 +95,12 @@ const Home = () => {
   return (
     <section className='w-full h-screen relative'>
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-         {isTextVisible && <HomeInfo />}
+        {isTextVisible && <HomeInfo />}
       </div>
 
       <Canvas
-        className={`w-full h-screen bg-transparent ${
-          isRotating ? "cursor-grabbing" : "cursor-grab"
-        }`}
+        className={`w-full h-screen bg-transparent ${isRotating ? "cursor-grabbing" : "cursor-grab"
+          }`}
         camera={{ near: 0.1, far: 1000 }}
       >
         <Suspense fallback={<Loader />}>
@@ -119,7 +122,7 @@ const Home = () => {
           <Mew />
           <Sky isRotating={isRotating} />
           <Island
-           
+
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
@@ -143,6 +146,14 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-9 h-9 cursor-pointer object-contain'
         />
+      </div>
+
+      <div>
+
+        {isTextVisible && <div className="text-custom absolute bottom-2 right-2 bg-black text-white py-2 px-3 text-xs sm:text-sm md:text-base rounded">
+          Press your <kbd>🠆</kbd> key 😃
+        </div>
+        }
       </div>
     </section>
   );
