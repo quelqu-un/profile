@@ -5,7 +5,6 @@ import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
-import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
@@ -26,6 +25,22 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import bootstrap from './bootstrap.svg'
+import  vuejs from './vue.svg'
+import   aws from './aws.svg'
+import  googlecloud from './google-cloud.svg'
+import restapi from './rest.svg'
+import figma from './figma.svg'
+import mysql from './mysql.svg'
+import postgresql from './postgresql.svg'
+import docker from './docker.svg'
+import jira from './jira.svg'
+import python from './python.svg'
+import postman from './postman.svg'
+import jquery from './jquery.svg'
+import linux from './linux.svg'
+
+
 
 export {
     css,
@@ -35,7 +50,6 @@ export {
     html,
     javascript,
     mongodb,
-    motion,
     mui,
     nextjs,
     nodejs,
@@ -55,5 +69,19 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    bootstrap,
+    vuejs,
+    aws,
+    googlecloud,
+    restapi,
+    figma,
+    mysql,
+    postgresql,
+    docker,
+    jira,
+    python,
+    postman,
+    jquery,
+    linux,
 }

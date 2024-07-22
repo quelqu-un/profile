@@ -1,4 +1,32 @@
-import { meta, shopify, starbucks, sisenex, tesla, image, logo } from "../assets/images";
+import { meta, 
+    shopify, 
+    starbucks, 
+    sisenex, 
+    tesla, 
+    image, 
+    logo,
+    imagegit1,
+    imagegit2,
+    snake1,
+    snake2,
+    ui1,
+    ui2,
+    ui3,
+    ui4,
+    ui5,
+    face1,
+    face2,
+    face3,
+    face4,
+    face5,
+    sleep1,
+    sleep2,
+    sleep3,
+    mdsocial,
+    panda1,
+    panda2,
+} from "../assets/images";
+
 import {
     car,
     contact,
@@ -11,7 +39,6 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
     mui,
     nextjs,
     nodejs,
@@ -23,7 +50,21 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    bootstrap,
+    vuejs,
+    aws,
+    googlecloud,
+    restapi,
+    figma,
+    mysql,
+    postgresql,
+    docker,
+    jira,
+    python,
+    postman,
+    jquery,
+    linux,
 } from "../assets/icons";
 
 export const skills = [
@@ -63,16 +104,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -106,7 +137,77 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
+    {
+        imageUrl: vuejs,
+        name: "Vue.js",
+        type: "Frontend",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: googlecloud,
+        name: "GoogleCloud",
+        type: "Frontend",
+    },
+    {
+        imageUrl: mysql,
+        name: "Mysql",
+        type: "Frontend",   
+    },
+    {
+        imageUrl: postgresql,
+        name: "Postgresql",
+        type: "Frontend",
+    },
+    {
+        imageUrl: restapi,
+        name: "RestfulAPI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "Frontend",
+    },
+    {
+        imageUrl: jira,
+        name: "Jira",
+        type: "Frontend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Frontend",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Frontend",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Frontend",
+    },
+    {
+        imageUrl: jquery,
+        name: "Jquery",
+        type: "Frontend",
+    },
+    {
+        imageUrl: linux,
+        name: "Linux",
+        type: "Frontend",
+    },
 ];
 
 export const experiences = [
@@ -123,59 +224,6 @@ export const experiences = [
             "Debugging and Optimization: Identifying and resolving critical bugs, improving application stability and performance.  ", 
             ],
         },   
-    // {
-    //     title: "React.js Developer",
-    //     company_name: "LUMO",
-    //     icon: starbucks,
-    //     iconBg: "#accbe1",
-    //     date: "August 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-        
-    // },
-    // {
-    //     title: "React Native Developer",
-    //     company_name: "Tesla",
-    //     icon: tesla,
-    //     iconBg: "#fbc3bc",
-    //     date: "Jan 2021 - Feb 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#b7e4c7",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
 ];
 
 export const socialLinks = [
@@ -187,62 +235,70 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/quelqu-un',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/laura-adler-silva/',
     }
 ];
 
 export const projects = [
     {
         iconUrl: pricewise,
-        img: [image,logo],
+        img: [panda1,panda2,logo],
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        name: 'Digital Panda',
+        description: 'Developed a fullstack e-commerce marketplace using Next.js 14, specializing in digital products. Key features included user authentication, admin dashboard, product verification, and secure payment processing with Stripe. Enhanced user experience with attractive landing and product pages using Tailwind CSS and custom artwork. Integrated MongoDB, tRPC, and Payload CMS, implemented email communications, and built a locally persisted shopping cart system. ',
         link: 'https://digitalpanda-a6fov09q1-laura-francines-projects.vercel.app/',
     },
     {
         iconUrl: threads,
-        img: [tesla,image],
+        img: [sleep1, sleep2, sleep3],
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Sleepy Deep',
+        description: 'Developed an IoT-based face authentication system, engineered a full-stack administrative dashboard for managing face authentication in workplace entry systems. Implemented real-time updates and system log visualizations, enhancing management and user experience. Developed secure face registration and verification processes using faceapi.js an AI for accurate identification  .',
+        link: 'https://bit.ly/sleepyDeepApp',
     },
     {
         iconUrl: car,
-            img: [image],
+        img: [  face1,face2,face3, face4,face5,],
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'Face Recognition AI',
+        description: 'Developed an IoT-based face authentication system, engineered a full-stack administrative dashboard for managing face authentication in workplace entry systems. Implemented real-time updates and system log visualizations, enhancing management and user experience. Developed secure face registration and verification processes using faceapi.js an AI for accurate identification.',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
         iconUrl: snapgram,
-            img: [image],
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        img: [imagegit1,imagegit2],
+        theme: 'btn-back-pin',
+        name: 'GitHub User Searcher',
+        description: 'The GitHub User Searcher is a web application designed to allow users to search for GitHub profiles and view their repositories. The project leverages the power of React for building the user interface, TypeScript for type safety and better code maintainability, Tailwind CSS for styling, and the GitHub API for fetching user data..',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: estate,
-            img: [image],
+        img: [ mdsocial,],
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
+        name: 'Social Media',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
         link: 'https://github.com/adrianhajdin/projects_realestate',
     },
     {
         iconUrl: summiz,
-            img: [image],
+        img: [snake1,snake2],
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        name: 'Snake Game',
+        description: 'The Snake Game is a classic arcade game recreated using modern web technologies. This project showcases your ability to implement game logic and create an engaging user interface using HTML, CSS, and JavaScript.',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    },
+    {
+        iconUrl: summiz,
+        img: [ui1,ui2,ui3,ui4,ui5],
+        theme: 'btn-back-yellow',
+        name: 'Landing Page - UI/UX Design',
+        description: 'The Travel Website is a beautifully designed and highly responsive web application created to inspire and assist travelers.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];

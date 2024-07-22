@@ -1,0 +1,24 @@
+.loader-gif-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+  z-index: 1000; /* Certifique-se de que está acima de outros conteúdos */
+}
+
+.loader-gif-image {
+  width: 200px; /* Ajuste o valor para o tamanho desejado */
+  height: 200px; /* Ajuste o valor para o tamanho desejado */
+}
+
+/* .loader-gif-text {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+} */
