@@ -25,6 +25,9 @@ import { meta,
     mdsocial,
     panda1,
     panda2,
+    amazon,
+    amazon2,
+    amazon3,
 } from "../assets/images";
 
 import {
@@ -279,7 +282,7 @@ export const projects = [
     },
     {
         iconUrl: estate,
-        img: [ mdsocial,],
+        img: [ amazon,amazon2,amazon3],
         theme: 'btn-back-black',
         name: 'Amazon Clone',
         description: 'Developed a responsive e-commerce application inspired by Amazon using HTML, CSS, and JavaScript, featuring product listings, search functionality, and a user-friendly shopping cart experience.',
