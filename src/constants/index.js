@@ -2,6 +2,7 @@ import { meta,
     shopify, 
     starbucks, 
     sisenex, 
+    kaseya,
     tesla, 
     image, 
     logo,
@@ -211,7 +212,23 @@ export const skills = [
 ];
 
 export const experiences = [
-    {
+   
+        {
+            title: "Frontend Engineer - DAP",
+            company_name: "Kaseya",
+            icon: kaseya,
+            iconBg: "#FFF",
+            date: "August 2024 - Present",
+            points: [
+              "Spearheaded the creation and optimization of WalkMe tutorials and guides for 40+ Kaseya applications, ensuring seamless user adoption and driving a 30% increase in customer engagement.",
+              "Collaborated with stakeholders, product teams, QA engineers, and technical writers to align on product goals, delivering high-quality solutions within agile sprint cycles.",
+              "Actively participated in daily stand-up meetings and sprint planning, contributing to team efficiency and ensuring alignment with project timelines.",
+              "Managed tasks and tracked progress using JIRA, maintaining clear documentation and consistently meeting sprint deadlines.",
+              "Refined user flows and addressed usability challenges, achieving a 25% improvement in user satisfaction based on feedback and metrics.",
+              "Ensured quality and consistency by testing and iterating on solutions, reducing reported onboarding issues by 20%."
+            ]
+          },  
+      {
         title: "React.js Developer",
         company_name: "LUMO",
         icon: sisenex,
@@ -224,6 +241,7 @@ export const experiences = [
             "Debugging and Optimization: Identifying and resolving critical bugs, improving application stability and performance.  ", 
             ],
         },   
+     
 ];
 
 export const socialLinks = [
@@ -247,7 +265,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
-        img: [panda1,panda2,logo],
+        img: [panda1,panda2],
         theme: 'btn-back-red',
         name: 'Digital Panda',
         description: 'Developed a fullstack e-commerce marketplace using Next.js 14, specializing in digital products. Key features included user authentication, admin dashboard, product verification, and secure payment processing with Stripe. Enhanced user experience with attractive landing and product pages using Tailwind CSS and custom artwork. Integrated MongoDB, tRPC, and Payload CMS, implemented email communications, and built a locally persisted shopping cart system. ',
