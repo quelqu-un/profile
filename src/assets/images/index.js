@@ -26,6 +26,9 @@ import sleep3 from './sleep3.jpeg'
 import mdsocial from './mdsocial.png'
 import panda1 from './panda1.jpeg' 
 import panda2 from './panda2.jpeg' 
+import amazon from './amazon.png'
+import amazon2 from './amazon2.png'
+import amazon3 from './amazon3.png'
 export {
     hero,
     meta,
@@ -55,4 +58,7 @@ export {
     mdsocial,
     panda1,
     panda2,
+    amazon,
+    amazon2,
+    amazon3,
 }
