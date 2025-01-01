@@ -251,7 +251,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Digital Panda',
         description: 'Developed a fullstack e-commerce marketplace using Next.js 14, specializing in digital products. Key features included user authentication, admin dashboard, product verification, and secure payment processing with Stripe. Enhanced user experience with attractive landing and product pages using Tailwind CSS and custom artwork. Integrated MongoDB, tRPC, and Payload CMS, implemented email communications, and built a locally persisted shopping cart system. ',
-        link: 'https://digitalpanda-a6fov09q1-laura-francines-projects.vercel.app/',
+        link: 'https://digitalpanda-production.up.railway.app/',
     },
     {
         iconUrl: threads,
@@ -267,7 +267,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Face Recognition AI',
         description: 'Developed an IoT-based face authentication system, engineered a full-stack administrative dashboard for managing face authentication in workplace entry systems. Implemented real-time updates and system log visualizations, enhancing management and user experience. Developed secure face registration and verification processes using faceapi.js an AI for accurate identification.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://face-auth-iot.vercel.app/',
     },
     {
         iconUrl: snapgram,
