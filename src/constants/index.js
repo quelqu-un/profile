@@ -26,6 +26,9 @@ import { meta,
     mdsocial,
     panda1,
     panda2,
+    amazon,
+    amazon2,
+    amazon3,
 } from "../assets/images";
 
 import {
@@ -269,7 +272,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Digital Panda',
         description: 'Developed a fullstack e-commerce marketplace using Next.js 14, specializing in digital products. Key features included user authentication, admin dashboard, product verification, and secure payment processing with Stripe. Enhanced user experience with attractive landing and product pages using Tailwind CSS and custom artwork. Integrated MongoDB, tRPC, and Payload CMS, implemented email communications, and built a locally persisted shopping cart system. ',
-        link: 'https://digitalpanda-a6fov09q1-laura-francines-projects.vercel.app/',
+        link: 'https://digitalpanda-production.up.railway.app/',
     },
     {
         iconUrl: threads,
@@ -285,7 +288,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Face Recognition AI',
         description: 'Developed an IoT-based face authentication system, engineered a full-stack administrative dashboard for managing face authentication in workplace entry systems. Implemented real-time updates and system log visualizations, enhancing management and user experience. Developed secure face registration and verification processes using faceapi.js an AI for accurate identification.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://face-auth-iot.vercel.app/',
     },
     {
         iconUrl: snapgram,
@@ -293,15 +296,15 @@ export const projects = [
         theme: 'btn-back-pin',
         name: 'GitHub User Searcher',
         description: 'The GitHub User Searcher is a web application designed to allow users to search for GitHub profiles and view their repositories. The project leverages the power of React for building the user interface, TypeScript for type safety and better code maintainability, Tailwind CSS for styling, and the GitHub API for fetching user data..',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github-user-search-app-ruby.vercel.app/',
     },
     {
         iconUrl: estate,
-        img: [ mdsocial,],
+        img: [ amazon,amazon2,amazon3],
         theme: 'btn-back-black',
-        name: 'Social Media',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Amazon Clone',
+        description: 'Developed a responsive e-commerce application inspired by Amazon using HTML, CSS, and JavaScript, featuring product listings, search functionality, and a user-friendly shopping cart experience.',
+        link: 'https://javascript-amazon-project-phi.vercel.app/index.html',
     },
     {
         iconUrl: summiz,
@@ -309,7 +312,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'Snake Game',
         description: 'The Snake Game is a classic arcade game recreated using modern web technologies. This project showcases your ability to implement game logic and create an engaging user interface using HTML, CSS, and JavaScript.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://snake-game-olive-five.vercel.app/',
     },
     {
         iconUrl: summiz,
@@ -317,6 +320,6 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'Landing Page - UI/UX Design',
         description: 'The Travel Website is a beautifully designed and highly responsive web application created to inspire and assist travelers.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://uiux-tawny.vercel.app/',
     }
 ];
